@@ -1,0 +1,2 @@
+기존 매동이 워크스페이스의 YOLO 모델 파일을 이 폴더에 복사하세요.
+원본 위치 예시: ~/AI_CAR/aicar_ws/src/aicar_vision/models/best_float32.tflite

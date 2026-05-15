@@ -1,0 +1,16 @@
+package.xml
+setup.cfg
+setup.py
+../build/aicar_vision/aicar_vision.egg-info/PKG-INFO
+../build/aicar_vision/aicar_vision.egg-info/SOURCES.txt
+../build/aicar_vision/aicar_vision.egg-info/dependency_links.txt
+../build/aicar_vision/aicar_vision.egg-info/entry_points.txt
+../build/aicar_vision/aicar_vision.egg-info/requires.txt
+../build/aicar_vision/aicar_vision.egg-info/top_level.txt
+../build/aicar_vision/aicar_vision.egg-info/zip-safe
+aicar_vision/__init__.py
+aicar_vision/fake_detector_node.py
+aicar_vision/lane_detector_node.py
+aicar_vision/sign_detector_node.py
+calibration_data/calibration.p
+resource/aicar_vision

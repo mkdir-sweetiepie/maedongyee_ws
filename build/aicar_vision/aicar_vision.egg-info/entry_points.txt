@@ -1,0 +1,4 @@
+[console_scripts]
+fake_detector_node = aicar_vision.fake_detector_node:main
+lane_detector_node = aicar_vision.lane_detector_node:main
+sign_detector_node = aicar_vision.sign_detector_node:main

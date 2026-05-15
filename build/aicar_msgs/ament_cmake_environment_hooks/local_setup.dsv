@@ -1,0 +1,4 @@
+source;share/aicar_msgs/environment/ament_prefix_path.sh
+source;share/aicar_msgs/environment/library_path.sh
+source;share/aicar_msgs/environment/path.sh
+source;share/aicar_msgs/environment/pythonpath.sh

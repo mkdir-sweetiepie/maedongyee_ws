@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aicar-ui
+Version: 0.1.0
+Summary: Local Tkinter dashboard for AI car
+Maintainer: medong
+Maintainer-email: medong@kw.ac.kr
+License: Apache-2.0

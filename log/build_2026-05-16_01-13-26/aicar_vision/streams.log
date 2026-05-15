@@ -1,0 +1,31 @@
+[6.461s] Invoking command in '/home/me/maedongyee_ws/aicar_vision': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_vision:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_ui:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_controller:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_driver:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_vision build --build-base /home/me/maedongyee_ws/build/aicar_vision/build install --record /home/me/maedongyee_ws/build/aicar_vision/install.log --single-version-externally-managed install_data
+[7.666s] running egg_info
+[7.749s] writing ../build/aicar_vision/aicar_vision.egg-info/PKG-INFO
+[7.750s] writing dependency_links to ../build/aicar_vision/aicar_vision.egg-info/dependency_links.txt
+[7.753s] writing entry points to ../build/aicar_vision/aicar_vision.egg-info/entry_points.txt
+[7.754s] writing requirements to ../build/aicar_vision/aicar_vision.egg-info/requires.txt
+[7.754s] writing top-level names to ../build/aicar_vision/aicar_vision.egg-info/top_level.txt
+[7.947s] reading manifest file '../build/aicar_vision/aicar_vision.egg-info/SOURCES.txt'
+[7.956s] writing manifest file '../build/aicar_vision/aicar_vision.egg-info/SOURCES.txt'
+[7.959s] running build
+[7.959s] running build_py
+[7.963s] copying aicar_vision/lane_detector_node.py -> /home/me/maedongyee_ws/build/aicar_vision/build/lib/aicar_vision
+[7.963s] running install
+[8.002s] running install_lib
+[8.095s] copying /home/me/maedongyee_ws/build/aicar_vision/build/lib/aicar_vision/lane_detector_node.py -> /home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages/aicar_vision
+[8.106s] byte-compiling /home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages/aicar_vision/lane_detector_node.py to lane_detector_node.cpython-312.pyc
+[8.113s] running install_data
+[8.115s]   File "/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages/aicar_vision/lane_detector_node.py", line 51
+[8.115s]     ])
+[8.115s]     ^
+[8.115s] SyntaxError: unmatched ']'
+[8.115s] 
+[8.116s] running install_egg_info
+[8.351s] removing '/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages/aicar_vision-0.2.0-py3.12.egg-info' (and everything under it)
+[8.352s] Copying ../build/aicar_vision/aicar_vision.egg-info to /home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages/aicar_vision-0.2.0-py3.12.egg-info
+[8.359s] running install_scripts
+[8.831s] Installing fake_detector_node script to /home/me/maedongyee_ws/install/aicar_vision/lib/aicar_vision
+[8.831s] Installing lane_detector_node script to /home/me/maedongyee_ws/install/aicar_vision/lib/aicar_vision
+[8.836s] Installing sign_detector_node script to /home/me/maedongyee_ws/install/aicar_vision/lib/aicar_vision
+[8.837s] writing list of installed files to '/home/me/maedongyee_ws/build/aicar_vision/install.log'
+[8.984s] Invoked command in '/home/me/maedongyee_ws/aicar_vision' returned '0': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_vision:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_ui:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_controller:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_driver:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_vision build --build-base /home/me/maedongyee_ws/build/aicar_vision/build install --record /home/me/maedongyee_ws/build/aicar_vision/install.log --single-version-externally-managed install_data

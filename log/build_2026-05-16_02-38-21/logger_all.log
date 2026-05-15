@@ -1,0 +1,412 @@
+[1.479s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.479s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, meson_args=[], ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffb4b719a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffb4d260c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffb4d260c0>>, mixin_verb=('build',))
+[1.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.611s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.611s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/me/maedongyee_ws'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.612s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'meson', 'python']
+[1.699s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.700s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'meson'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extension 'ignore'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extension 'ignore_ament_install'
+[1.702s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extensions ['colcon_pkg']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extension 'colcon_pkg'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extensions ['colcon_meta']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extension 'colcon_meta'
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extensions ['ros']
+[1.703s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_bringup) by extension 'ros'
+[1.708s] DEBUG:colcon.colcon_core.package_identification:Package 'aicar_bringup' with type 'ros.ament_cmake' and name 'aicar_bringup'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extension 'ignore'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extension 'ignore_ament_install'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extensions ['colcon_pkg']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extension 'colcon_pkg'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extensions ['colcon_meta']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extension 'colcon_meta'
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extensions ['ros']
+[1.709s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_controller) by extension 'ros'
+[1.710s] DEBUG:colcon.colcon_core.package_identification:Package 'aicar_controller' with type 'ros.ament_python' and name 'aicar_controller'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extension 'ignore'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extension 'ignore_ament_install'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extensions ['colcon_pkg']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extension 'colcon_pkg'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extensions ['colcon_meta']
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extension 'colcon_meta'
+[1.710s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extensions ['ros']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_driver) by extension 'ros'
+[1.711s] DEBUG:colcon.colcon_core.package_identification:Package 'aicar_driver' with type 'ros.ament_python' and name 'aicar_driver'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extension 'ignore'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extension 'ignore_ament_install'
+[1.711s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extensions ['colcon_pkg']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extension 'colcon_pkg'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extensions ['colcon_meta']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extension 'colcon_meta'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extensions ['ros']
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_msgs) by extension 'ros'
+[1.712s] DEBUG:colcon.colcon_core.package_identification:Package 'aicar_msgs' with type 'ros.ament_cmake' and name 'aicar_msgs'
+[1.712s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extensions ['ignore', 'ignore_ament_install']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extension 'ignore'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extension 'ignore_ament_install'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extensions ['colcon_pkg']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extension 'colcon_pkg'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extensions ['colcon_meta']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extension 'colcon_meta'
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extensions ['ros']
+[1.713s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_ui) by extension 'ros'
+[1.714s] DEBUG:colcon.colcon_core.package_identification:Package 'aicar_ui' with type 'ros.ament_python' and name 'aicar_ui'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extensions ['ignore', 'ignore_ament_install']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extension 'ignore'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extension 'ignore_ament_install'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extensions ['colcon_pkg']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extension 'colcon_pkg'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extensions ['colcon_meta']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extension 'colcon_meta'
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extensions ['ros']
+[1.714s] Level 1:colcon.colcon_core.package_identification:_identify(aicar_vision) by extension 'ros'
+[1.715s] DEBUG:colcon.colcon_core.package_identification:Package 'aicar_vision' with type 'ros.ament_python' and name 'aicar_vision'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.715s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.716s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.716s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.763s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.771s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/me/maedongyee_ws/install
+[1.775s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 292 installed packages in /opt/ros/jazzy
+[1.778s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'cmake_args' from command line to 'None'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'cmake_target' from command line to 'None'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[1.965s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'meson_args' from command line to '[]'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[1.966s] Level 5:colcon.colcon_core.verb:set package 'aicar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.966s] DEBUG:colcon.colcon_core.verb:Building package 'aicar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/me/maedongyee_ws/build/aicar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/me/maedongyee_ws/install/aicar_driver', 'merge_install': False, 'meson_args': [], 'path': '/home/me/maedongyee_ws/aicar_driver', 'symlink_install': False, 'test_result_base': None}
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'cmake_target' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'meson_args' from command line to '[]'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[1.979s] Level 5:colcon.colcon_core.verb:set package 'aicar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.979s] DEBUG:colcon.colcon_core.verb:Building package 'aicar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/me/maedongyee_ws/build/aicar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/me/maedongyee_ws/install/aicar_msgs', 'merge_install': False, 'meson_args': [], 'path': '/home/me/maedongyee_ws/aicar_msgs', 'symlink_install': False, 'test_result_base': None}
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'cmake_args' from command line to 'None'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'cmake_target' from command line to 'None'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'cmake_clean_cache' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'cmake_clean_first' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'cmake_force_configure' from command line to 'False'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'meson_args' from command line to '[]'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'ament_cmake_args' from command line to 'None'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'catkin_cmake_args' from command line to 'None'
+[1.992s] Level 5:colcon.colcon_core.verb:set package 'aicar_ui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.992s] DEBUG:colcon.colcon_core.verb:Building package 'aicar_ui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/me/maedongyee_ws/build/aicar_ui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/me/maedongyee_ws/install/aicar_ui', 'merge_install': False, 'meson_args': [], 'path': '/home/me/maedongyee_ws/aicar_ui', 'symlink_install': False, 'test_result_base': None}
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'cmake_args' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'cmake_target' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'meson_args' from command line to '[]'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.005s] Level 5:colcon.colcon_core.verb:set package 'aicar_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.005s] DEBUG:colcon.colcon_core.verb:Building package 'aicar_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/me/maedongyee_ws/build/aicar_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/me/maedongyee_ws/install/aicar_controller', 'merge_install': False, 'meson_args': [], 'path': '/home/me/maedongyee_ws/aicar_controller', 'symlink_install': False, 'test_result_base': None}
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'cmake_args' from command line to 'None'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'cmake_target' from command line to 'None'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'cmake_clean_cache' from command line to 'False'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'cmake_clean_first' from command line to 'False'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'cmake_force_configure' from command line to 'False'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'meson_args' from command line to '[]'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'ament_cmake_args' from command line to 'None'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'catkin_cmake_args' from command line to 'None'
+[2.020s] Level 5:colcon.colcon_core.verb:set package 'aicar_vision' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.020s] DEBUG:colcon.colcon_core.verb:Building package 'aicar_vision' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/me/maedongyee_ws/build/aicar_vision', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/me/maedongyee_ws/install/aicar_vision', 'merge_install': False, 'meson_args': [], 'path': '/home/me/maedongyee_ws/aicar_vision', 'symlink_install': False, 'test_result_base': None}
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'cmake_args' from command line to 'None'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'cmake_target' from command line to 'None'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'meson_args' from command line to '[]'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[2.033s] Level 5:colcon.colcon_core.verb:set package 'aicar_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.033s] DEBUG:colcon.colcon_core.verb:Building package 'aicar_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/me/maedongyee_ws/build/aicar_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/me/maedongyee_ws/install/aicar_bringup', 'merge_install': False, 'meson_args': [], 'path': '/home/me/maedongyee_ws/aicar_bringup', 'symlink_install': False, 'test_result_base': None}
+[2.033s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.035s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.035s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/me/maedongyee_ws/aicar_msgs' with build type 'ament_cmake'
+[2.036s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/me/maedongyee_ws/aicar_msgs'
+[2.048s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.048s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.055s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/me/maedongyee_ws/aicar_driver' with build type 'ament_python'
+[2.056s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_driver', 'ament_prefix_path')
+[2.056s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/hook/ament_prefix_path.ps1'
+[2.059s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/hook/ament_prefix_path.dsv'
+[2.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/hook/ament_prefix_path.sh'
+[2.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.067s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.071s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/me/maedongyee_ws/aicar_ui' with build type 'ament_python'
+[2.072s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_ui', 'ament_prefix_path')
+[2.072s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/hook/ament_prefix_path.ps1'
+[2.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/hook/ament_prefix_path.dsv'
+[2.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/hook/ament_prefix_path.sh'
+[2.075s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.075s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.089s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/build/aicar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/me/maedongyee_ws/build/aicar_msgs -- -j4 -l4
+[2.479s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/me/maedongyee_ws/aicar_driver'
+[2.479s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.479s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.867s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/me/maedongyee_ws/aicar_ui'
+[2.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.868s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.220s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/build/aicar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/me/maedongyee_ws/build/aicar_msgs -- -j4 -l4
+[4.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/build/aicar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/me/maedongyee_ws/build/aicar_msgs
+[4.412s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_msgs)
+[4.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/build/aicar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/me/maedongyee_ws/build/aicar_msgs
+[4.476s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs' for CMake module files
+[4.477s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs' for CMake config files
+[4.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_msgs', 'cmake_prefix_path')
+[4.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/cmake_prefix_path.ps1'
+[4.479s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/cmake_prefix_path.dsv'
+[4.480s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/cmake_prefix_path.sh'
+[4.481s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/lib'
+[4.481s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_msgs', 'ld_library_path_lib')
+[4.482s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/ld_library_path_lib.ps1'
+[4.482s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/ld_library_path_lib.dsv'
+[4.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/ld_library_path_lib.sh'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/bin'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/lib/pkgconfig/aicar_msgs.pc'
+[4.484s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages'
+[4.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_msgs', 'pythonpath')
+[4.485s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/pythonpath.ps1'
+[4.485s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/pythonpath.dsv'
+[4.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/pythonpath.sh'
+[4.487s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/bin'
+[4.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.ps1'
+[4.490s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.dsv'
+[4.492s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.sh'
+[4.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.bash'
+[4.497s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.zsh'
+[4.499s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_msgs/share/colcon-core/packages/aicar_msgs)
+[4.501s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_msgs)
+[4.501s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs' for CMake module files
+[4.502s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs' for CMake config files
+[4.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_msgs', 'cmake_prefix_path')
+[4.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/cmake_prefix_path.ps1'
+[4.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/cmake_prefix_path.dsv'
+[4.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/cmake_prefix_path.sh'
+[4.506s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/lib'
+[4.506s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_msgs', 'ld_library_path_lib')
+[4.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/ld_library_path_lib.ps1'
+[4.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/ld_library_path_lib.dsv'
+[4.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/ld_library_path_lib.sh'
+[4.509s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/bin'
+[4.509s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/lib/pkgconfig/aicar_msgs.pc'
+[4.509s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages'
+[4.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_msgs', 'pythonpath')
+[4.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/pythonpath.ps1'
+[4.510s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/pythonpath.dsv'
+[4.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/hook/pythonpath.sh'
+[4.512s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_msgs/bin'
+[4.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.ps1'
+[4.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.dsv'
+[4.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.sh'
+[4.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.bash'
+[4.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.zsh'
+[4.520s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_msgs/share/colcon-core/packages/aicar_msgs)
+[4.522s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/me/maedongyee_ws/aicar_controller' with build type 'ament_python'
+[4.522s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_controller', 'ament_prefix_path')
+[4.522s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/hook/ament_prefix_path.ps1'
+[4.524s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/hook/ament_prefix_path.dsv'
+[4.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/hook/ament_prefix_path.sh'
+[4.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.538s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/me/maedongyee_ws/aicar_vision' with build type 'ament_python'
+[4.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_vision', 'ament_prefix_path')
+[4.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/hook/ament_prefix_path.ps1'
+[4.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/hook/ament_prefix_path.dsv'
+[4.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/hook/ament_prefix_path.sh'
+[4.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.973s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/me/maedongyee_ws/aicar_controller'
+[4.973s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.973s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.404s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/me/maedongyee_ws/aicar_vision'
+[5.404s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.404s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/aicar_driver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_driver build --build-base /home/me/maedongyee_ws/build/aicar_driver/build install --record /home/me/maedongyee_ws/build/aicar_driver/install.log --single-version-externally-managed install_data
+[5.416s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/aicar_ui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_ui build --build-base /home/me/maedongyee_ws/build/aicar_ui/build install --record /home/me/maedongyee_ws/build/aicar_ui/install.log --single-version-externally-managed install_data
+[6.580s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_ui' for CMake module files
+[6.582s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/aicar_ui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_ui build --build-base /home/me/maedongyee_ws/build/aicar_ui/build install --record /home/me/maedongyee_ws/build/aicar_ui/install.log --single-version-externally-managed install_data
+[6.585s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_ui' for CMake config files
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_ui/lib'
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_ui/bin'
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_ui/lib/pkgconfig/aicar_ui.pc'
+[6.586s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages'
+[6.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_ui', 'pythonpath')
+[6.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/hook/pythonpath.ps1'
+[6.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/hook/pythonpath.dsv'
+[6.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/hook/pythonpath.sh'
+[6.591s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_ui/bin'
+[6.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_ui)
+[6.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/package.ps1'
+[6.593s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/package.dsv'
+[6.597s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/package.sh'
+[6.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/package.bash'
+[6.600s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui/package.zsh'
+[6.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_ui/share/colcon-core/packages/aicar_ui)
+[6.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/aicar_controller': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_controller build --build-base /home/me/maedongyee_ws/build/aicar_controller/build install --record /home/me/maedongyee_ws/build/aicar_controller/install.log --single-version-externally-managed install_data
+[6.800s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_driver' for CMake module files
+[6.801s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/aicar_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_driver build --build-base /home/me/maedongyee_ws/build/aicar_driver/build install --record /home/me/maedongyee_ws/build/aicar_driver/install.log --single-version-externally-managed install_data
+[6.802s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_driver' for CMake config files
+[6.803s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_driver/lib'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_driver/bin'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_driver/lib/pkgconfig/aicar_driver.pc'
+[6.804s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages'
+[6.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_driver', 'pythonpath')
+[6.805s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/hook/pythonpath.ps1'
+[6.806s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/hook/pythonpath.dsv'
+[6.807s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/hook/pythonpath.sh'
+[6.808s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_driver/bin'
+[6.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_driver)
+[6.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/package.ps1'
+[6.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/package.dsv'
+[6.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/package.sh'
+[6.812s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/package.bash'
+[6.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver/package.zsh'
+[6.814s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_driver/share/colcon-core/packages/aicar_driver)
+[6.963s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/aicar_vision': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_vision build --build-base /home/me/maedongyee_ws/build/aicar_vision/build install --record /home/me/maedongyee_ws/build/aicar_vision/install.log --single-version-externally-managed install_data
+[7.692s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_controller' for CMake module files
+[7.692s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/aicar_controller' returned '0': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_controller build --build-base /home/me/maedongyee_ws/build/aicar_controller/build install --record /home/me/maedongyee_ws/build/aicar_controller/install.log --single-version-externally-managed install_data
+[7.693s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_controller' for CMake config files
+[7.694s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_controller/lib'
+[7.694s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_controller/bin'
+[7.694s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_controller/lib/pkgconfig/aicar_controller.pc'
+[7.694s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages'
+[7.694s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_controller', 'pythonpath')
+[7.695s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/hook/pythonpath.ps1'
+[7.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/hook/pythonpath.dsv'
+[7.696s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/hook/pythonpath.sh'
+[7.697s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_controller/bin'
+[7.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_controller)
+[7.698s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/package.ps1'
+[7.699s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/package.dsv'
+[7.699s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/package.sh'
+[7.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/package.bash'
+[7.702s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_controller/share/aicar_controller/package.zsh'
+[7.703s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_controller/share/colcon-core/packages/aicar_controller)
+[7.862s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_vision' for CMake module files
+[7.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/aicar_vision' returned '0': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_vision/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_vision build --build-base /home/me/maedongyee_ws/build/aicar_vision/build install --record /home/me/maedongyee_ws/build/aicar_vision/install.log --single-version-externally-managed install_data
+[7.863s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_vision' for CMake config files
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_vision/lib'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_vision/bin'
+[7.864s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_vision/lib/pkgconfig/aicar_vision.pc'
+[7.865s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages'
+[7.865s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_vision', 'pythonpath')
+[7.865s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/hook/pythonpath.ps1'
+[7.866s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/hook/pythonpath.dsv'
+[7.867s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/hook/pythonpath.sh'
+[7.868s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_vision/bin'
+[7.868s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_vision)
+[7.868s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/package.ps1'
+[7.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/package.dsv'
+[7.870s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/package.sh'
+[7.871s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/package.bash'
+[7.872s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_vision/share/aicar_vision/package.zsh'
+[7.872s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_vision/share/colcon-core/packages/aicar_vision)
+[7.873s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/me/maedongyee_ws/aicar_bringup' with build type 'ament_cmake'
+[7.874s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/me/maedongyee_ws/aicar_bringup'
+[7.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/build/aicar_bringup': AMENT_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_driver:/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/me/maedongyee_ws/build/aicar_bringup -- -j4 -l4
+[7.974s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/build/aicar_bringup' returned '0': AMENT_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_driver:/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/me/maedongyee_ws/build/aicar_bringup -- -j4 -l4
+[7.977s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/me/maedongyee_ws/build/aicar_bringup': AMENT_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_driver:/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/me/maedongyee_ws/build/aicar_bringup
+[7.998s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_bringup)
+[7.998s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup' for CMake module files
+[7.999s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/me/maedongyee_ws/build/aicar_bringup' returned '0': AMENT_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_driver:/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/me/maedongyee_ws/build/aicar_bringup
+[8.000s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup' for CMake config files
+[8.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_bringup', 'cmake_prefix_path')
+[8.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/hook/cmake_prefix_path.ps1'
+[8.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/hook/cmake_prefix_path.dsv'
+[8.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/hook/cmake_prefix_path.sh'
+[8.003s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/bin'
+[8.003s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/lib/pkgconfig/aicar_bringup.pc'
+[8.003s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/lib/python3.12/site-packages'
+[8.004s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/bin'
+[8.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.ps1'
+[8.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.dsv'
+[8.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.sh'
+[8.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.bash'
+[8.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.zsh'
+[8.008s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_bringup/share/colcon-core/packages/aicar_bringup)
+[8.010s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aicar_bringup)
+[8.010s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup' for CMake module files
+[8.011s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup' for CMake config files
+[8.012s] Level 1:colcon.colcon_core.shell:create_environment_hook('aicar_bringup', 'cmake_prefix_path')
+[8.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/hook/cmake_prefix_path.ps1'
+[8.012s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/hook/cmake_prefix_path.dsv'
+[8.013s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/hook/cmake_prefix_path.sh'
+[8.014s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/bin'
+[8.015s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/lib/pkgconfig/aicar_bringup.pc'
+[8.015s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/lib/python3.12/site-packages'
+[8.015s] Level 1:colcon.colcon_core.environment:checking '/home/me/maedongyee_ws/install/aicar_bringup/bin'
+[8.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.ps1'
+[8.016s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.dsv'
+[8.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.sh'
+[8.018s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.bash'
+[8.019s] INFO:colcon.colcon_core.shell:Creating package script '/home/me/maedongyee_ws/install/aicar_bringup/share/aicar_bringup/package.zsh'
+[8.020s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/me/maedongyee_ws/install/aicar_bringup/share/colcon-core/packages/aicar_bringup)
+[8.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.021s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.022s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.050s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.050s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.092s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.093s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/me/maedongyee_ws/install/local_setup.ps1'
+[8.095s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/me/maedongyee_ws/install/_local_setup_util_ps1.py'
+[8.098s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/me/maedongyee_ws/install/setup.ps1'
+[8.101s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/me/maedongyee_ws/install/local_setup.sh'
+[8.103s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/me/maedongyee_ws/install/_local_setup_util_sh.py'
+[8.104s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/me/maedongyee_ws/install/setup.sh'
+[8.107s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/me/maedongyee_ws/install/local_setup.bash'
+[8.108s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/me/maedongyee_ws/install/setup.bash'
+[8.112s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/me/maedongyee_ws/install/local_setup.zsh'
+[8.114s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/me/maedongyee_ws/install/setup.zsh'

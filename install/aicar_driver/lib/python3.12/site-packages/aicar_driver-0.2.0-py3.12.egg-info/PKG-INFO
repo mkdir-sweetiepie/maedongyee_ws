@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aicar-driver
+Version: 0.2.0
+Summary: Motor driver
+Maintainer: medong
+Maintainer-email: medong@kw.ac.kr
+License: Apache-2.0

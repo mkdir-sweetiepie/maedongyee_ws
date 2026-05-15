@@ -1,72 +1,67 @@
 """
 Driving constants (ported from 2024_turtlebot robit_driving.hpp mode3)
-NOTE: These are starting values. Tune on the real robot.
-
-Coordinate convention (BEV, 640x480):
-- robot_center_px = 320 (BEV image center)
-- left_x in [0, 320), right_x in [320, 640)
-- pixel_offset: learned half-track-width in pixels
-- angle: 90 deg = vertical line (lane parallel to driving direction)
-
-Turtlebot used 320x240 image (mid=160). We use 640x480 BEV (mid=320),
-so position-derived numbers are scaled x2. Gains kept the same as
-starting points; tune as needed.
 """
 
 # --- LineTracing core gains ---
-STRAIGHT_GAIN     = 0.1     # both lanes visible
-LEFT_CURVE_GAIN   = 0.047   # right lane only (left curve incoming)
-RIGHT_CURVE_GAIN  = 0.05    # left lane only (right curve incoming)
+STRAIGHT_GAIN     = 0.1
+LEFT_CURVE_GAIN   = 0.047
+RIGHT_CURVE_GAIN  = 0.05
 
 P_GAIN = 1.0
 D_GAIN = 6.0
 
-ANGLE_PIXEL_RATE = 0.7      # angle vs position weight on curve mode (turtlebot value)
-STRAIGHT_ANGLE_RATE = 0.9   # on straight (both lanes), angle weighted higher
+ANGLE_PIXEL_RATE = 0.7
+STRAIGHT_ANGLE_RATE = 0.9
 
 # --- Angular limits ---
 MIN_ANGLE = 0.1
 MAX_ANGLE = 3.6
-MAX_REVERSE = 2.0           # clamp on curve-mode pixel_gap
+MAX_REVERSE = 2.0
 
 # --- Output mixing ---
-F1 = 0.3                    # previous angular weight (LPF)
-F2 = 1.0 - F1               # new angular weight
+F1 = 0.3
+F2 = 1.0 - F1
 
 # --- Speed coupling ---
-ANGULAR_LINEAR_RATE = 3.0   # angular_z = raw * before_linear * RATE
+ANGULAR_LINEAR_RATE = 3.0
 
-# --- Slew rate (speed change per cycle) ---
+# --- Slew rate ---
 STRAIGHT_LINEAR_INCREASE_GAIN = 0.1
 STRAIGHT_LINEAR_DECREASE_GAIN = 0.08
 
-# --- Speed profile (relative to base_speed) ---
-MIN_LINEAR_RATIO = 0.3      # in heavy turn
-MAX_LINEAR_RATIO = 0.7      # near straight
+# --- Speed profile ---
+MIN_LINEAR_RATIO = 0.3
+MAX_LINEAR_RATIO = 0.7
 
 # --- BEV image dims ---
 BEV_WIDTH = 640
 BEV_HEIGHT = 480
-ROBOT_CENTER_PX = BEV_WIDTH / 2.0   # 320.0
+ROBOT_CENTER_PX = BEV_WIDTH / 2.0
 
-# --- Default learned pixel_offset (half track width) ---
-# Track is 20cm wide. BEV calibration dependent; tune for your setup.
+# --- Default learned pixel_offset ---
 DEFAULT_PIXEL_OFFSET = 180
 
 # --- State machine timings ---
-STOP_SIGN_WAIT_SEC = 3.5    # mission: 1-3s = -10, <1s = -20, so target ~3.5
-TRAFFIC_RED_WAIT_SEC = 3.0  # red light: stop then right turn
-SLOW_MODE_DURATION_SEC = 6.0   # 20% speed window after slow sign
+STOP_SIGN_WAIT_SEC = 3.5
+TRAFFIC_RED_WAIT_SEC = 3.0
+SLOW_MODE_DURATION_SEC = 6.0
 
-# --- Turn (left/right_turn sign) ---
-TURN_ANGULAR_VEL = 2.0      # rad/s during in-place turn
-TURN_DURATION_SEC = 1.45    # tune for ~90 deg (1.9 was ~218 deg per memory)
+# --- Turn (split / smooth) ---
+# 한 번에 90도 휙 도는 대신, "30도 회전 + 약한 직진" 을 3번 반복.
+# 사람 운전 느낌으로 부드러운 코너링.
+TURN_ANGULAR_VEL = 2.0          # rad/s (회전 단계의 각속도)
+TURN_STEP_DURATION_SEC = 0.70   # 한 번에 회전 시간 (2.0 × 0.30 ≈ 34°)
+TURN_PAUSE_DURATION_SEC = 0.3  # 회전 사이 약한 직진 시간
+TURN_PAUSE_LINEAR = 0.5        # 회전 사이 직진 속도 (작게)
+TURN_STEPS = 3                  # 회전 분할 횟수 (3번 = 약 90도)
+
+# Legacy: 통회전용 (사용 안 함, 호환성 유지)
+TURN_DURATION_SEC = 1.0
 
 # --- Post turn straight ---
 POST_TURN_STRAIGHT_SEC = 1.0
 
-# --- Slow sign motor scale ---
-SLOW_SPEED_RATIO = 0.2      # mission: 20% motor output
+SLOW_SPEED_RATIO = 0.2
 
 # --- Buzzer ---
 BUZZER_PIN = 12
@@ -74,5 +69,10 @@ BUZZER_FREQ = 1500
 BUZZER_DURATION_SEC = 1.0
 
 # --- Finish line detection ---
-RED_DETECT_LOCKOUT_SEC = 8.0      # ignore red line during first N sec from start
-RED_DETECT_DENSITY = 0.40         # white pixel ratio threshold in detection zone
+RED_DETECT_LOCKOUT_SEC = 8.0
+RED_DETECT_DENSITY = 0.40
+
+# --- Auto corner detection (both lanes lost = corner) ---
+CORNER_BOTH_LOST_FRAMES = 5
+CORNER_PRE_TURN_DELAY_SEC = 0.5
+CORNER_COOLDOWN_SEC = 4.0

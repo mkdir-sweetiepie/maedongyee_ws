@@ -1,0 +1,12 @@
+package.xml
+setup.py
+aicar_ui/__init__.py
+aicar_ui/dashboard_node.py
+aicar_ui.egg-info/PKG-INFO
+aicar_ui.egg-info/SOURCES.txt
+aicar_ui.egg-info/dependency_links.txt
+aicar_ui.egg-info/entry_points.txt
+aicar_ui.egg-info/requires.txt
+aicar_ui.egg-info/top_level.txt
+aicar_ui.egg-info/zip-safe
+resource/aicar_ui

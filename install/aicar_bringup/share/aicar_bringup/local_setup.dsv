@@ -1,0 +1,2 @@
+source;share/aicar_bringup/environment/ament_prefix_path.sh
+source;share/aicar_bringup/environment/path.sh

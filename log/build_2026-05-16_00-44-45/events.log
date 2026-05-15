@@ -1,0 +1,366 @@
+[0.000000] (-) TimerEvent: {}
+[0.003606] (-) JobUnselected: {'identifier': 'aicar_bringup'}
+[0.003747] (-) JobUnselected: {'identifier': 'aicar_controller'}
+[0.003906] (-) JobUnselected: {'identifier': 'aicar_driver'}
+[0.003992] (-) JobUnselected: {'identifier': 'aicar_ui'}
+[0.004046] (-) JobUnselected: {'identifier': 'aicar_vision'}
+[0.004105] (aicar_msgs) JobQueued: {'identifier': 'aicar_msgs', 'dependencies': OrderedDict()}
+[0.004218] (aicar_msgs) JobStarted: {'identifier': 'aicar_msgs'}
+[0.019917] (aicar_msgs) JobProgress: {'identifier': 'aicar_msgs', 'progress': 'cmake'}
+[0.021857] (aicar_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/me/maedongyee_ws/aicar_msgs', '-DCMAKE_INSTALL_PREFIX=/home/me/maedongyee_ws/install/aicar_msgs'], 'cwd': '/home/me/maedongyee_ws/build/aicar_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'me', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/me/maedongyee_ws/install/aicar_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/me', 'OLDPWD': '/home/me/maedongyee_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1440', 'SYSTEMD_EXEC_PID': '1808', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2480', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/me/maedongyee_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'me', 'JOURNAL_STREAM': '8:17392', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'me', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/me/maedongyee_ws/install/aicar_vision/bin:/home/me/maedongyee_ws/install/aicar_ui/bin:/home/me/maedongyee_ws/install/aicar_controller/bin:/home/me/maedongyee_ws/install/aicar_driver/bin:/opt/ros/jazzy/bin:/home/me/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/me:@/tmp/.ICE-unix/1609,unix/me:/tmp/.ICE-unix/1609', 'INVOCATION_ID': 'f354b0817abb45319e2cf70156945063', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NB0MP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:832d285c-bf93-4bd8-b9f9-7bc1d3211b09', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/me/maedongyee_ws/build/aicar_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/me/maedongyee_ws/build/aicar_vision:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_ui:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_controller:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_driver:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy'}), 'shell': False}
+[0.098915] (-) TimerEvent: {}
+[0.140260] (aicar_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.199037] (-) TimerEvent: {}
+[0.240120] (aicar_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.272873] (aicar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299156] (-) TimerEvent: {}
+[0.399506] (-) TimerEvent: {}
+[0.435226] (aicar_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.450916] (aicar_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.451237] (aicar_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.451807] (aicar_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.465739] (aicar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.499627] (-) TimerEvent: {}
+[0.599982] (-) TimerEvent: {}
+[0.640693] (aicar_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.655565] (aicar_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.655989] (aicar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.656703] (aicar_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.661937] (aicar_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.700085] (-) TimerEvent: {}
+[0.800408] (-) TimerEvent: {}
+[0.900696] (-) TimerEvent: {}
+[0.927279] (aicar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[1.000805] (-) TimerEvent: {}
+[1.086791] (aicar_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[1.096356] (aicar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.100919] (-) TimerEvent: {}
+[1.168227] (aicar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.201039] (-) TimerEvent: {}
+[1.232868] (aicar_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[1.237012] (aicar_msgs) StdoutLine: {'line': b'-- Found std_msgs: 5.3.7 (/opt/ros/jazzy/share/std_msgs/cmake)\n'}
+[1.302630] (-) TimerEvent: {}
+[1.403029] (-) TimerEvent: {}
+[1.503422] (-) TimerEvent: {}
+[1.603753] (-) TimerEvent: {}
+[1.704048] (-) TimerEvent: {}
+[1.804373] (-) TimerEvent: {}
+[1.904734] (-) TimerEvent: {}
+[2.005050] (-) TimerEvent: {}
+[2.105377] (-) TimerEvent: {}
+[2.205692] (-) TimerEvent: {}
+[2.306003] (-) TimerEvent: {}
+[2.352296] (aicar_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[2.406114] (-) TimerEvent: {}
+[2.506811] (-) TimerEvent: {}
+[2.608109] (-) TimerEvent: {}
+[2.708514] (-) TimerEvent: {}
+[2.809347] (-) TimerEvent: {}
+[2.909913] (-) TimerEvent: {}
+[3.010443] (-) TimerEvent: {}
+[3.110890] (-) TimerEvent: {}
+[3.211256] (-) TimerEvent: {}
+[3.311582] (-) TimerEvent: {}
+[3.375081] (aicar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.411700] (-) TimerEvent: {}
+[3.512010] (-) TimerEvent: {}
+[3.612336] (-) TimerEvent: {}
+[3.712676] (-) TimerEvent: {}
+[3.812998] (-) TimerEvent: {}
+[3.913315] (-) TimerEvent: {}
+[4.013597] (-) TimerEvent: {}
+[4.113930] (-) TimerEvent: {}
+[4.214359] (-) TimerEvent: {}
+[4.314723] (-) TimerEvent: {}
+[4.415366] (-) TimerEvent: {}
+[4.462367] (aicar_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.466250] (aicar_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.515485] (-) TimerEvent: {}
+[4.615830] (-) TimerEvent: {}
+[4.716170] (-) TimerEvent: {}
+[4.778570] (aicar_msgs) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.816234] (-) TimerEvent: {}
+[4.916535] (-) TimerEvent: {}
+[5.016844] (-) TimerEvent: {}
+[5.117146] (-) TimerEvent: {}
+[5.217470] (-) TimerEvent: {}
+[5.317762] (-) TimerEvent: {}
+[5.418067] (-) TimerEvent: {}
+[5.518416] (-) TimerEvent: {}
+[5.597135] (aicar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[5.618523] (-) TimerEvent: {}
+[5.718821] (-) TimerEvent: {}
+[5.748459] (aicar_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[5.762843] (aicar_msgs) StdoutLine: {'line': b'-- Configuring done (5.7s)\n'}
+[5.818947] (-) TimerEvent: {}
+[5.836163] (aicar_msgs) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.859309] (aicar_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/me/maedongyee_ws/build/aicar_msgs\n'}
+[5.872511] (aicar_msgs) CommandEnded: {'returncode': 0}
+[5.873240] (aicar_msgs) JobProgress: {'identifier': 'aicar_msgs', 'progress': 'build'}
+[5.873960] (aicar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/me/maedongyee_ws/build/aicar_msgs', '--', '-j4', '-l4'], 'cwd': '/home/me/maedongyee_ws/build/aicar_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'me', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/me/maedongyee_ws/install/aicar_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/me', 'OLDPWD': '/home/me/maedongyee_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1440', 'SYSTEMD_EXEC_PID': '1808', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2480', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/me/maedongyee_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'me', 'JOURNAL_STREAM': '8:17392', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'me', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/me/maedongyee_ws/install/aicar_vision/bin:/home/me/maedongyee_ws/install/aicar_ui/bin:/home/me/maedongyee_ws/install/aicar_controller/bin:/home/me/maedongyee_ws/install/aicar_driver/bin:/opt/ros/jazzy/bin:/home/me/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/me:@/tmp/.ICE-unix/1609,unix/me:/tmp/.ICE-unix/1609', 'INVOCATION_ID': 'f354b0817abb45319e2cf70156945063', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NB0MP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:832d285c-bf93-4bd8-b9f9-7bc1d3211b09', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/me/maedongyee_ws/build/aicar_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/me/maedongyee_ws/build/aicar_vision:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_ui:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_controller:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_driver:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy'}), 'shell': False}
+[5.919060] (-) TimerEvent: {}
+[5.967081] (aicar_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating Rust code for ROS interfaces\x1b[0m\n'}
+[5.967425] (aicar_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[5.983248] (aicar_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_aicar_msgs\n'}
+[6.020279] (-) TimerEvent: {}
+[6.120784] (-) TimerEvent: {}
+[6.223363] (-) TimerEvent: {}
+[6.325957] (-) TimerEvent: {}
+[6.366345] (aicar_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[6.367971] (aicar_msgs) StdoutLine: {'line': b'creating aicar_msgs.egg-info\n'}
+[6.389289] (aicar_msgs) StdoutLine: {'line': b'[  5%] Built target aicar_msgs__rosidl_generator_type_description\n'}
+[6.411704] (aicar_msgs) StdoutLine: {'line': b'[  8%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[6.411978] (aicar_msgs) StdoutLine: {'line': b'writing aicar_msgs.egg-info/PKG-INFO\n'}
+[6.412098] (aicar_msgs) StdoutLine: {'line': b'writing dependency_links to aicar_msgs.egg-info/dependency_links.txt\n'}
+[6.412226] (aicar_msgs) StdoutLine: {'line': b'writing top-level names to aicar_msgs.egg-info/top_level.txt\n'}
+[6.412365] (aicar_msgs) StdoutLine: {'line': b"writing manifest file 'aicar_msgs.egg-info/SOURCES.txt'\n"}
+[6.426076] (-) TimerEvent: {}
+[6.440731] (aicar_msgs) StdoutLine: {'line': b'[ 11%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[6.497873] (aicar_msgs) StdoutLine: {'line': b'[ 11%] Built target aicar_msgs__rs\n'}
+[6.526208] (-) TimerEvent: {}
+[6.542077] (aicar_msgs) StdoutLine: {'line': b"reading manifest file 'aicar_msgs.egg-info/SOURCES.txt'\n"}
+[6.544337] (aicar_msgs) StdoutLine: {'line': b"writing manifest file 'aicar_msgs.egg-info/SOURCES.txt'\n"}
+[6.623470] (aicar_msgs) StdoutLine: {'line': b'[ 11%] Built target ament_cmake_python_build_aicar_msgs_egg\n'}
+[6.626319] (-) TimerEvent: {}
+[6.726678] (-) TimerEvent: {}
+[6.826977] (-) TimerEvent: {}
+[6.928230] (-) TimerEvent: {}
+[6.958969] (aicar_msgs) StdoutLine: {'line': b'[ 11%] Built target aicar_msgs__cpp\n'}
+[6.974916] (aicar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs__rosidl_generator_c.dir/rosidl_generator_c/aicar_msgs/msg/detail/lane_info__description.c.o\x1b[0m\n'}
+[6.975252] (aicar_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs__rosidl_generator_c.dir/rosidl_generator_c/aicar_msgs/msg/detail/lane_info__type_support.c.o\x1b[0m\n'}
+[6.975399] (aicar_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs__rosidl_generator_c.dir/rosidl_generator_c/aicar_msgs/msg/detail/lane_info__functions.c.o\x1b[0m\n'}
+[7.028340] (-) TimerEvent: {}
+[7.084911] (aicar_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32m\x1b[1mLinking C shared library libaicar_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[7.128456] (-) TimerEvent: {}
+[7.163471] (aicar_msgs) StdoutLine: {'line': b'[ 22%] Built target aicar_msgs__rosidl_generator_c\n'}
+[7.185847] (aicar_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.186556] (aicar_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.187354] (aicar_msgs) StdoutLine: {'line': b'[ 31%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.189598] (aicar_msgs) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.228790] (-) TimerEvent: {}
+[7.332661] (-) TimerEvent: {}
+[7.432989] (-) TimerEvent: {}
+[7.533313] (-) TimerEvent: {}
+[7.633741] (-) TimerEvent: {}
+[7.717148] (aicar_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/aicar_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/aicar_msgs/msg/lane_info__type_support.cpp.o\x1b[0m\n'}
+[7.725169] (aicar_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/aicar_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/aicar_msgs/msg/lane_info__type_support.cpp.o\x1b[0m\n'}
+[7.733870] (-) TimerEvent: {}
+[7.754087] (aicar_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/aicar_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/aicar_msgs/msg/detail/lane_info__type_support.cpp.o\x1b[0m\n'}
+[7.834298] (aicar_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32m\x1b[1mLinking CXX shared library libaicar_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[7.834616] (-) TimerEvent: {}
+[7.859438] (aicar_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/aicar_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/aicar_msgs/msg/detail/dds_fastrtps/lane_info__type_support.cpp.o\x1b[0m\n'}
+[7.916424] (aicar_msgs) StdoutLine: {'line': b'[ 48%] Built target aicar_msgs__rosidl_typesupport_c\n'}
+[7.937277] (-) TimerEvent: {}
+[7.939720] (aicar_msgs) StdoutLine: {'line': b'[ 51%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[8.037423] (-) TimerEvent: {}
+[8.137848] (-) TimerEvent: {}
+[8.238276] (-) TimerEvent: {}
+[8.338673] (-) TimerEvent: {}
+[8.372261] (aicar_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking CXX shared library libaicar_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[8.438796] (-) TimerEvent: {}
+[8.459260] (aicar_msgs) StdoutLine: {'line': b'[ 54%] Built target aicar_msgs__rosidl_typesupport_cpp\n'}
+[8.482026] (aicar_msgs) StdoutLine: {'line': b'[ 57%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[8.502883] (aicar_msgs) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libaicar_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.540257] (-) TimerEvent: {}
+[8.640701] (-) TimerEvent: {}
+[8.716503] (aicar_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/aicar_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/aicar_msgs/msg/detail/lane_info__type_support_c.cpp.o\x1b[0m\n'}
+[8.721325] (aicar_msgs) StdoutLine: {'line': b'[ 62%] Built target aicar_msgs__rosidl_typesupport_introspection_cpp\n'}
+[8.740824] (-) TimerEvent: {}
+[8.842474] (-) TimerEvent: {}
+[8.909139] (aicar_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libaicar_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[8.942605] (-) TimerEvent: {}
+[9.020734] (aicar_msgs) StdoutLine: {'line': b'[ 65%] Built target aicar_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[9.042722] (-) TimerEvent: {}
+[9.065406] (aicar_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/aicar_msgs/msg/detail/lane_info__type_support.c.o\x1b[0m\n'}
+[9.131060] (aicar_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking C shared library libaicar_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.142816] (-) TimerEvent: {}
+[9.186882] (aicar_msgs) StdoutLine: {'line': b'[ 71%] Built target aicar_msgs__rosidl_typesupport_introspection_c\n'}
+[9.242926] (-) TimerEvent: {}
+[9.343268] (-) TimerEvent: {}
+[9.443600] (-) TimerEvent: {}
+[9.494860] (aicar_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libaicar_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[9.543728] (-) TimerEvent: {}
+[9.580358] (aicar_msgs) StdoutLine: {'line': b'[ 74%] Built target aicar_msgs__rosidl_typesupport_fastrtps_c\n'}
+[9.616300] (aicar_msgs) StdoutLine: {'line': b'[ 74%] Built target aicar_msgs\n'}
+[9.643838] (-) TimerEvent: {}
+[9.654801] (aicar_msgs) StdoutLine: {'line': b'[ 77%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[9.743943] (-) TimerEvent: {}
+[9.844250] (-) TimerEvent: {}
+[9.944555] (-) TimerEvent: {}
+[10.044920] (-) TimerEvent: {}
+[10.146248] (-) TimerEvent: {}
+[10.247255] (-) TimerEvent: {}
+[10.309491] (aicar_msgs) StdoutLine: {'line': b'[ 77%] Built target aicar_msgs__py\n'}
+[10.347398] (-) TimerEvent: {}
+[10.357588] (aicar_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs__rosidl_generator_py.dir/rosidl_generator_py/aicar_msgs/msg/_lane_info_s.c.o\x1b[0m\n'}
+[10.447510] (-) TimerEvent: {}
+[10.547844] (-) TimerEvent: {}
+[10.614094] (aicar_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libaicar_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[10.647961] (-) TimerEvent: {}
+[10.696136] (aicar_msgs) StdoutLine: {'line': b'[ 82%] Built target aicar_msgs__rosidl_generator_py\n'}
+[10.741465] (aicar_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/aicar_msgs/_aicar_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[10.750282] (aicar_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/aicar_msgs/_aicar_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[10.750696] (-) TimerEvent: {}
+[10.769019] (aicar_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/aicar_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/aicar_msgs/_aicar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[10.850894] (-) TimerEvent: {}
+[10.951750] (-) TimerEvent: {}
+[10.992843] (aicar_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aicar_msgs/aicar_msgs_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[11.025283] (aicar_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aicar_msgs/aicar_msgs_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.043089] (aicar_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/aicar_msgs/aicar_msgs_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.051901] (-) TimerEvent: {}
+[11.071264] (aicar_msgs) StdoutLine: {'line': b'[100%] Built target aicar_msgs_s__rosidl_typesupport_c\n'}
+[11.099442] (aicar_msgs) StdoutLine: {'line': b'[100%] Built target aicar_msgs_s__rosidl_typesupport_introspection_c\n'}
+[11.139946] (aicar_msgs) StdoutLine: {'line': b'[100%] Built target aicar_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[11.152100] (-) TimerEvent: {}
+[11.235860] (aicar_msgs) CommandEnded: {'returncode': 0}
+[11.237872] (aicar_msgs) JobProgress: {'identifier': 'aicar_msgs', 'progress': 'install'}
+[11.253892] (-) TimerEvent: {}
+[11.268229] (aicar_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/me/maedongyee_ws/build/aicar_msgs'], 'cwd': '/home/me/maedongyee_ws/build/aicar_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'me', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/me/maedongyee_ws/install/aicar_msgs/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/me', 'OLDPWD': '/home/me/maedongyee_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '1440', 'SYSTEMD_EXEC_PID': '1808', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '2480', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/me/maedongyee_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'me', 'JOURNAL_STREAM': '8:17392', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'me', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/home/me/maedongyee_ws/install/aicar_vision/bin:/home/me/maedongyee_ws/install/aicar_ui/bin:/home/me/maedongyee_ws/install/aicar_controller/bin:/home/me/maedongyee_ws/install/aicar_driver/bin:/opt/ros/jazzy/bin:/home/me/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/me:@/tmp/.ICE-unix/1609,unix/me:/tmp/.ICE-unix/1609', 'INVOCATION_ID': 'f354b0817abb45319e2cf70156945063', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.NB0MP3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:832d285c-bf93-4bd8-b9f9-7bc1d3211b09', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/me/maedongyee_ws/build/aicar_msgs', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/me/maedongyee_ws/build/aicar_vision:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_ui:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_controller:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/build/aicar_driver:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/me/maedongyee_ws/install/aicar_bringup:/home/me/maedongyee_ws/install/aicar_msgs:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/me/maedongyee_ws/install/aicar_vision:/home/me/maedongyee_ws/install/aicar_ui:/home/me/maedongyee_ws/install/aicar_controller:/home/me/maedongyee_ws/install/aicar_driver:/opt/ros/jazzy'}), 'shell': False}
+[11.296964] (aicar_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.297369] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/ament_index/resource_index/rosidl_interfaces/aicar_msgs\n'}
+[11.297595] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/msg/LaneInfo.json\n'}
+[11.297995] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs\n'}
+[11.298104] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg\n'}
+[11.343890] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.344076] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/lane_info.h\n'}
+[11.344340] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail\n'}
+[11.344540] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__functions.h\n'}
+[11.344648] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__description.c\n'}
+[11.344812] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__type_support.h\n'}
+[11.344959] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__type_support.c\n'}
+[11.345096] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__struct.h\n'}
+[11.345233] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__functions.c\n'}
+[11.345605] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/library_path.sh\n'}
+[11.345828] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/library_path.dsv\n'}
+[11.346212] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_generator_c.so\n'}
+[11.348055] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_generator_c.so" to ""\n'}
+[11.348478] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs\n'}
+[11.348645] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg\n'}
+[11.348782] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.351315] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail\n'}
+[11.351809] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__rosidl_typesupport_fastrtps_c.h\n'}
+[11.352016] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[11.352363] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.353446] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs\n'}
+[11.353771] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg\n'}
+[11.353958] (-) TimerEvent: {}
+[11.354169] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.354386] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail\n'}
+[11.354517] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__type_support.c\n'}
+[11.354624] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__rosidl_typesupport_introspection_c.h\n'}
+[11.354732] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_introspection_c.so\n'}
+[11.354938] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.355123] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_c.so\n'}
+[11.356066] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_c.so" to ""\n'}
+[11.356399] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs\n'}
+[11.356625] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg\n'}
+[11.356868] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/lane_info.hpp\n'}
+[11.357009] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.357265] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail\n'}
+[11.357418] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__struct.hpp\n'}
+[11.357535] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__traits.hpp\n'}
+[11.358822] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__type_support.hpp\n'}
+[11.359008] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__builder.hpp\n'}
+[11.359097] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs\n'}
+[11.359205] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg\n'}
+[11.359410] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.359518] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail\n'}
+[11.359611] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/dds_fastrtps\n'}
+[11.359702] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.359833] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.359945] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.360067] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs\n'}
+[11.360483] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg\n'}
+[11.360596] (aicar_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail\n'}
+[11.360682] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__type_support.cpp\n'}
+[11.360767] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/include/aicar_msgs/aicar_msgs/msg/detail/lane_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.360849] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[11.361005] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.361206] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_cpp.so\n'}
+[11.361987] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[11.362193] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/pythonpath.sh\n'}
+[11.362345] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/pythonpath.dsv\n'}
+[11.362530] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs-0.1.0-py3.12.egg-info\n'}
+[11.363686] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs-0.1.0-py3.12.egg-info/top_level.txt\n'}
+[11.364030] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs-0.1.0-py3.12.egg-info/PKG-INFO\n'}
+[11.364149] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs-0.1.0-py3.12.egg-info/SOURCES.txt\n'}
+[11.364263] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs-0.1.0-py3.12.egg-info/dependency_links.txt\n'}
+[11.364437] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs\n'}
+[11.364610] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_c.so\n'}
+[11.364950] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/msg\n'}
+[11.365067] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/msg/_lane_info.py\n'}
+[11.365256] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/msg/__init__.py\n'}
+[11.365395] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/msg/_lane_info_s.c\n'}
+[11.365536] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/__init__.py\n'}
+[11.365663] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.365987] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/_aicar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.366128] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/_aicar_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[11.366293] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/_aicar_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.366470] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[11.450448] (aicar_msgs) StdoutLine: {'line': b"Listing '/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs'...\n"}
+[11.450833] (aicar_msgs) StdoutLine: {'line': b"Compiling '/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/__init__.py'...\n"}
+[11.450963] (aicar_msgs) StdoutLine: {'line': b"Listing '/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/msg'...\n"}
+[11.451085] (aicar_msgs) StdoutLine: {'line': b"Compiling '/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/msg/__init__.py'...\n"}
+[11.451193] (aicar_msgs) StdoutLine: {'line': b"Compiling '/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/msg/_lane_info.py'...\n"}
+[11.454839] (-) TimerEvent: {}
+[11.473141] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[11.474438] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.474987] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[11.475798] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.476311] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_c.so\n'}
+[11.477016] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages/aicar_msgs/aicar_msgs_s__rosidl_typesupport_c.so" to ""\n'}
+[11.478026] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_generator_py.so\n'}
+[11.479109] (aicar_msgs) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/me/maedongyee_ws/install/aicar_msgs/lib/libaicar_msgs__rosidl_generator_py.so" to ""\n'}
+[11.479538] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/ament_index/resource_index/rust_packages/aicar_msgs\n'}
+[11.479843] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust\n'}
+[11.480220] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust/build.rs\n'}
+[11.480510] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust/src\n'}
+[11.480681] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust/src/msg\n'}
+[11.480802] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust/src/msg/rmw.rs\n'}
+[11.480944] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust/src/lib.rs\n'}
+[11.481082] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust/src/msg.rs\n'}
+[11.481380] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/rust/Cargo.toml\n'}
+[11.481544] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/msg/LaneInfo.idl\n'}
+[11.481773] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/msg/LaneInfo.msg\n'}
+[11.482054] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/ament_index/resource_index/package_run_dependencies/aicar_msgs\n'}
+[11.482392] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/ament_index/resource_index/parent_prefix_path/aicar_msgs\n'}
+[11.482616] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/ament_prefix_path.sh\n'}
+[11.482814] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/ament_prefix_path.dsv\n'}
+[11.483019] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/path.sh\n'}
+[11.483217] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/environment/path.dsv\n'}
+[11.483402] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/local_setup.bash\n'}
+[11.483597] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/local_setup.sh\n'}
+[11.483786] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/local_setup.zsh\n'}
+[11.483960] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/local_setup.dsv\n'}
+[11.484137] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.dsv\n'}
+[11.484445] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/ament_index/resource_index/packages/aicar_msgs\n'}
+[11.484706] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_generator_cExport.cmake\n'}
+[11.484912] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.485133] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.485372] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.485697] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.485948] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.486410] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_cExport.cmake\n'}
+[11.486665] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.486918] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_generator_cppExport.cmake\n'}
+[11.487186] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.487468] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.487760] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.488570] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.488787] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[11.488881] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.488990] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_generator_pyExport.cmake\n'}
+[11.489104] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/export_aicar_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.489481] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[11.489713] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.489859] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.489987] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.490211] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.490539] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.492379] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.492820] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgsConfig.cmake\n'}
+[11.492964] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/cmake/aicar_msgsConfig-version.cmake\n'}
+[11.493395] (aicar_msgs) StdoutLine: {'line': b'-- Installing: /home/me/maedongyee_ws/install/aicar_msgs/share/aicar_msgs/package.xml\n'}
+[11.498192] (aicar_msgs) CommandEnded: {'returncode': 0}
+[11.545070] (aicar_msgs) JobEnded: {'identifier': 'aicar_msgs', 'rc': 0}
+[11.546504] (-) EventReactorShutdown: {}

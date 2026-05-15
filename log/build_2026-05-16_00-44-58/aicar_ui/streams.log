@@ -1,0 +1,37 @@
+[3.384s] Invoking command in '/home/me/maedongyee_ws/aicar_ui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_ui build --build-base /home/me/maedongyee_ws/build/aicar_ui/build install --record /home/me/maedongyee_ws/build/aicar_ui/install.log --single-version-externally-managed install_data
+[4.062s] running egg_info
+[4.062s] creating ../build/aicar_ui/aicar_ui.egg-info
+[4.109s] writing ../build/aicar_ui/aicar_ui.egg-info/PKG-INFO
+[4.110s] writing dependency_links to ../build/aicar_ui/aicar_ui.egg-info/dependency_links.txt
+[4.110s] writing entry points to ../build/aicar_ui/aicar_ui.egg-info/entry_points.txt
+[4.110s] writing requirements to ../build/aicar_ui/aicar_ui.egg-info/requires.txt
+[4.110s] writing top-level names to ../build/aicar_ui/aicar_ui.egg-info/top_level.txt
+[4.110s] writing manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+[4.189s] reading manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+[4.191s] writing manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+[4.192s] running build
+[4.192s] running build_py
+[4.193s] creating /home/me/maedongyee_ws/build/aicar_ui/build
+[4.194s] creating /home/me/maedongyee_ws/build/aicar_ui/build/lib
+[4.195s] creating /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui
+[4.197s] copying aicar_ui/__init__.py -> /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui
+[4.197s] copying aicar_ui/dashboard_node.py -> /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui
+[4.199s] running install
+[4.210s] running install_lib
+[4.255s] creating /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui
+[4.256s] copying /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui/__init__.py -> /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui
+[4.257s] copying /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui/dashboard_node.py -> /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui
+[4.258s] byte-compiling /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui/__init__.py to __init__.cpython-312.pyc
+[4.259s] byte-compiling /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui/dashboard_node.py to dashboard_node.cpython-312.pyc
+[4.270s] running install_data
+[4.270s] creating /home/me/maedongyee_ws/install/aicar_ui/share/ament_index
+[4.270s] creating /home/me/maedongyee_ws/install/aicar_ui/share/ament_index/resource_index
+[4.270s] creating /home/me/maedongyee_ws/install/aicar_ui/share/ament_index/resource_index/packages
+[4.270s] copying resource/aicar_ui -> /home/me/maedongyee_ws/install/aicar_ui/share/ament_index/resource_index/packages
+[4.270s] copying package.xml -> /home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui
+[4.270s] running install_egg_info
+[4.313s] Copying ../build/aicar_ui/aicar_ui.egg-info to /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui-0.1.0-py3.12.egg-info
+[4.315s] running install_scripts
+[4.581s] Installing dashboard_node script to /home/me/maedongyee_ws/install/aicar_ui/lib/aicar_ui
+[4.581s] writing list of installed files to '/home/me/maedongyee_ws/build/aicar_ui/install.log'
+[4.681s] Invoked command in '/home/me/maedongyee_ws/aicar_ui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_ui build --build-base /home/me/maedongyee_ws/build/aicar_ui/build install --record /home/me/maedongyee_ws/build/aicar_ui/install.log --single-version-externally-managed install_data

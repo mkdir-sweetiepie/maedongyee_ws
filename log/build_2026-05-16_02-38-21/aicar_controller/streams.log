@@ -1,0 +1,27 @@
+[2.150s] Invoking command in '/home/me/maedongyee_ws/aicar_controller': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_controller build --build-base /home/me/maedongyee_ws/build/aicar_controller/build install --record /home/me/maedongyee_ws/build/aicar_controller/install.log --single-version-externally-managed install_data
+[2.656s] running egg_info
+[2.686s] writing ../build/aicar_controller/aicar_controller.egg-info/PKG-INFO
+[2.727s] writing dependency_links to ../build/aicar_controller/aicar_controller.egg-info/dependency_links.txt
+[2.728s] writing entry points to ../build/aicar_controller/aicar_controller.egg-info/entry_points.txt
+[2.729s] writing requirements to ../build/aicar_controller/aicar_controller.egg-info/requires.txt
+[2.730s] writing top-level names to ../build/aicar_controller/aicar_controller.egg-info/top_level.txt
+[2.790s] reading manifest file '../build/aicar_controller/aicar_controller.egg-info/SOURCES.txt'
+[2.791s] writing manifest file '../build/aicar_controller/aicar_controller.egg-info/SOURCES.txt'
+[2.791s] running build
+[2.792s] running build_py
+[2.792s] copying aicar_controller/driving_controller_node.py -> /home/me/maedongyee_ws/build/aicar_controller/build/lib/aicar_controller
+[2.793s] copying aicar_controller/constants.py -> /home/me/maedongyee_ws/build/aicar_controller/build/lib/aicar_controller
+[2.794s] running install
+[2.802s] running install_lib
+[2.832s] copying /home/me/maedongyee_ws/build/aicar_controller/build/lib/aicar_controller/driving_controller_node.py -> /home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages/aicar_controller
+[2.832s] copying /home/me/maedongyee_ws/build/aicar_controller/build/lib/aicar_controller/constants.py -> /home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages/aicar_controller
+[2.833s] byte-compiling /home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages/aicar_controller/driving_controller_node.py to driving_controller_node.cpython-312.pyc
+[2.838s] byte-compiling /home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages/aicar_controller/constants.py to constants.cpython-312.pyc
+[2.839s] running install_data
+[2.839s] running install_egg_info
+[2.874s] removing '/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages/aicar_controller-0.2.0-py3.12.egg-info' (and everything under it)
+[2.874s] Copying ../build/aicar_controller/aicar_controller.egg-info to /home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages/aicar_controller-0.2.0-py3.12.egg-info
+[2.876s] running install_scripts
+[3.087s] Installing driving_controller_node script to /home/me/maedongyee_ws/install/aicar_controller/lib/aicar_controller
+[3.088s] writing list of installed files to '/home/me/maedongyee_ws/build/aicar_controller/install.log'
+[3.166s] Invoked command in '/home/me/maedongyee_ws/aicar_controller' returned '0': CMAKE_PREFIX_PATH=/home/me/maedongyee_ws/install/aicar_msgs:/home/me/maedongyee_ws/install/aicar_bringup:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_msgs/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_controller/lib/python3.12/site-packages:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_controller build --build-base /home/me/maedongyee_ws/build/aicar_controller/build install --record /home/me/maedongyee_ws/build/aicar_controller/install.log --single-version-externally-managed install_data

@@ -1,0 +1,5 @@
+  File "/home/me/maedongyee_ws/install/aicar_vision/lib/python3.12/site-packages/aicar_vision/lane_detector_node.py", line 51
+    ])
+    ^
+SyntaxError: unmatched ']'
+

@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/aicar_ui/aicar_ui.egg-info
+writing ../build/aicar_ui/aicar_ui.egg-info/PKG-INFO
+writing dependency_links to ../build/aicar_ui/aicar_ui.egg-info/dependency_links.txt
+writing entry points to ../build/aicar_ui/aicar_ui.egg-info/entry_points.txt
+writing requirements to ../build/aicar_ui/aicar_ui.egg-info/requires.txt
+writing top-level names to ../build/aicar_ui/aicar_ui.egg-info/top_level.txt
+writing manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+reading manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+writing manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/me/maedongyee_ws/build/aicar_ui/build
+creating /home/me/maedongyee_ws/build/aicar_ui/build/lib
+creating /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui
+copying aicar_ui/__init__.py -> /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui
+copying aicar_ui/dashboard_node.py -> /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui
+running install
+running install_lib
+creating /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui
+copying /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui/__init__.py -> /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui
+copying /home/me/maedongyee_ws/build/aicar_ui/build/lib/aicar_ui/dashboard_node.py -> /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui
+byte-compiling /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui/dashboard_node.py to dashboard_node.cpython-312.pyc
+running install_data
+creating /home/me/maedongyee_ws/install/aicar_ui/share/ament_index
+creating /home/me/maedongyee_ws/install/aicar_ui/share/ament_index/resource_index
+creating /home/me/maedongyee_ws/install/aicar_ui/share/ament_index/resource_index/packages
+copying resource/aicar_ui -> /home/me/maedongyee_ws/install/aicar_ui/share/ament_index/resource_index/packages
+copying package.xml -> /home/me/maedongyee_ws/install/aicar_ui/share/aicar_ui
+running install_egg_info
+Copying ../build/aicar_ui/aicar_ui.egg-info to /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui-0.1.0-py3.12.egg-info
+running install_scripts
+Installing dashboard_node script to /home/me/maedongyee_ws/install/aicar_ui/lib/aicar_ui
+writing list of installed files to '/home/me/maedongyee_ws/build/aicar_ui/install.log'

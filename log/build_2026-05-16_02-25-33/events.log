@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000477] (-) JobUnselected: {'identifier': 'aicar_bringup'}
+[0.000545] (-) JobUnselected: {'identifier': 'aicar_controller'}
+[0.000574] (-) JobUnselected: {'identifier': 'aicar_driver'}
+[0.000601] (-) JobUnselected: {'identifier': 'aicar_msgs'}
+[0.000625] (-) JobUnselected: {'identifier': 'aicar_ui'}
+[0.000653] (-) JobUnselected: {'identifier': 'aicar_vision'}
+[0.001309] (-) EventReactorShutdown: {}

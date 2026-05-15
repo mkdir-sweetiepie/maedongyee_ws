@@ -1,0 +1,21 @@
+[3.229s] Invoking command in '/home/me/maedongyee_ws/aicar_ui': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_ui build --build-base /home/me/maedongyee_ws/build/aicar_ui/build install --record /home/me/maedongyee_ws/build/aicar_ui/install.log --single-version-externally-managed install_data
+[3.927s] running egg_info
+[3.964s] writing ../build/aicar_ui/aicar_ui.egg-info/PKG-INFO
+[3.965s] writing dependency_links to ../build/aicar_ui/aicar_ui.egg-info/dependency_links.txt
+[3.966s] writing entry points to ../build/aicar_ui/aicar_ui.egg-info/entry_points.txt
+[3.967s] writing requirements to ../build/aicar_ui/aicar_ui.egg-info/requires.txt
+[3.968s] writing top-level names to ../build/aicar_ui/aicar_ui.egg-info/top_level.txt
+[4.039s] reading manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+[4.043s] writing manifest file '../build/aicar_ui/aicar_ui.egg-info/SOURCES.txt'
+[4.043s] running build
+[4.044s] running build_py
+[4.044s] running install
+[4.054s] running install_lib
+[4.089s] running install_data
+[4.089s] running install_egg_info
+[4.129s] removing '/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui-0.1.0-py3.12.egg-info' (and everything under it)
+[4.132s] Copying ../build/aicar_ui/aicar_ui.egg-info to /home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages/aicar_ui-0.1.0-py3.12.egg-info
+[4.136s] running install_scripts
+[4.374s] Installing dashboard_node script to /home/me/maedongyee_ws/install/aicar_ui/lib/aicar_ui
+[4.376s] writing list of installed files to '/home/me/maedongyee_ws/build/aicar_ui/install.log'
+[4.478s] Invoked command in '/home/me/maedongyee_ws/aicar_ui' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_ui/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_ui/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_ui build --build-base /home/me/maedongyee_ws/build/aicar_ui/build install --record /home/me/maedongyee_ws/build/aicar_ui/install.log --single-version-externally-managed install_data

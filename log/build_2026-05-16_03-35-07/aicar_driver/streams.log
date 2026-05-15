@@ -1,0 +1,21 @@
+[3.174s] Invoking command in '/home/me/maedongyee_ws/aicar_driver': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_driver build --build-base /home/me/maedongyee_ws/build/aicar_driver/build install --record /home/me/maedongyee_ws/build/aicar_driver/install.log --single-version-externally-managed install_data
+[3.693s] running egg_info
+[3.734s] writing ../build/aicar_driver/aicar_driver.egg-info/PKG-INFO
+[3.734s] writing dependency_links to ../build/aicar_driver/aicar_driver.egg-info/dependency_links.txt
+[3.735s] writing entry points to ../build/aicar_driver/aicar_driver.egg-info/entry_points.txt
+[3.736s] writing requirements to ../build/aicar_driver/aicar_driver.egg-info/requires.txt
+[3.736s] writing top-level names to ../build/aicar_driver/aicar_driver.egg-info/top_level.txt
+[3.809s] reading manifest file '../build/aicar_driver/aicar_driver.egg-info/SOURCES.txt'
+[3.810s] writing manifest file '../build/aicar_driver/aicar_driver.egg-info/SOURCES.txt'
+[3.811s] running build
+[3.811s] running build_py
+[3.812s] running install
+[3.826s] running install_lib
+[3.859s] running install_data
+[3.859s] running install_egg_info
+[3.896s] removing '/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver-0.2.0-py3.12.egg-info' (and everything under it)
+[3.899s] Copying ../build/aicar_driver/aicar_driver.egg-info to /home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver-0.2.0-py3.12.egg-info
+[3.903s] running install_scripts
+[4.172s] Installing differential_drive_node script to /home/me/maedongyee_ws/install/aicar_driver/lib/aicar_driver
+[4.175s] writing list of installed files to '/home/me/maedongyee_ws/build/aicar_driver/install.log'
+[4.295s] Invoked command in '/home/me/maedongyee_ws/aicar_driver' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/me/maedongyee_ws/build/aicar_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/aicar_driver build --build-base /home/me/maedongyee_ws/build/aicar_driver/build install --record /home/me/maedongyee_ws/build/aicar_driver/install.log --single-version-externally-managed install_data

@@ -1,0 +1,35 @@
+running egg_info
+creating ../build/aicar_driver/aicar_driver.egg-info
+writing ../build/aicar_driver/aicar_driver.egg-info/PKG-INFO
+writing dependency_links to ../build/aicar_driver/aicar_driver.egg-info/dependency_links.txt
+writing entry points to ../build/aicar_driver/aicar_driver.egg-info/entry_points.txt
+writing requirements to ../build/aicar_driver/aicar_driver.egg-info/requires.txt
+writing top-level names to ../build/aicar_driver/aicar_driver.egg-info/top_level.txt
+writing manifest file '../build/aicar_driver/aicar_driver.egg-info/SOURCES.txt'
+reading manifest file '../build/aicar_driver/aicar_driver.egg-info/SOURCES.txt'
+writing manifest file '../build/aicar_driver/aicar_driver.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/me/maedongyee_ws/build/aicar_driver/build
+creating /home/me/maedongyee_ws/build/aicar_driver/build/lib
+creating /home/me/maedongyee_ws/build/aicar_driver/build/lib/aicar_driver
+copying aicar_driver/__init__.py -> /home/me/maedongyee_ws/build/aicar_driver/build/lib/aicar_driver
+copying aicar_driver/differential_drive_node.py -> /home/me/maedongyee_ws/build/aicar_driver/build/lib/aicar_driver
+running install
+running install_lib
+creating /home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver
+copying /home/me/maedongyee_ws/build/aicar_driver/build/lib/aicar_driver/__init__.py -> /home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver
+copying /home/me/maedongyee_ws/build/aicar_driver/build/lib/aicar_driver/differential_drive_node.py -> /home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver
+byte-compiling /home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver/differential_drive_node.py to differential_drive_node.cpython-312.pyc
+running install_data
+creating /home/me/maedongyee_ws/install/aicar_driver/share/ament_index
+creating /home/me/maedongyee_ws/install/aicar_driver/share/ament_index/resource_index
+creating /home/me/maedongyee_ws/install/aicar_driver/share/ament_index/resource_index/packages
+copying resource/aicar_driver -> /home/me/maedongyee_ws/install/aicar_driver/share/ament_index/resource_index/packages
+copying package.xml -> /home/me/maedongyee_ws/install/aicar_driver/share/aicar_driver
+running install_egg_info
+Copying ../build/aicar_driver/aicar_driver.egg-info to /home/me/maedongyee_ws/install/aicar_driver/lib/python3.12/site-packages/aicar_driver-0.2.0-py3.12.egg-info
+running install_scripts
+Installing differential_drive_node script to /home/me/maedongyee_ws/install/aicar_driver/lib/aicar_driver
+writing list of installed files to '/home/me/maedongyee_ws/build/aicar_driver/install.log'

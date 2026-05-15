@@ -1,0 +1,4 @@
+source;share/aicar_bringup/local_setup.bash
+source;share/aicar_bringup/local_setup.dsv
+source;share/aicar_bringup/local_setup.sh
+source;share/aicar_bringup/local_setup.zsh

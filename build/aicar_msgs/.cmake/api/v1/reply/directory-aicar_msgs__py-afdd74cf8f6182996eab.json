@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "aicar_msgs__py",
+		"source" : "/home/me/maedongyee_ws/build/aicar_msgs/aicar_msgs__py"
+	}
+}

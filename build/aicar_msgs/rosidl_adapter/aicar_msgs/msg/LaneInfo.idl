@@ -1,0 +1,41 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from aicar_msgs/msg/LaneInfo.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module aicar_msgs {
+  module msg {
+    struct LaneInfo {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Left lane info")
+      boolean left_detect;
+
+      @verbatim (language="comment", text=
+        "x position at bottom of BEV")
+      @unit (value="pixels")
+      float left_x;
+
+      @verbatim (language="comment", text=
+        "line angle, 90 = vertical")
+      @unit (value="degrees")
+      float left_angle;
+
+      @verbatim (language="comment", text=
+        "Right lane info")
+      boolean right_detect;
+
+      float right_x;
+
+      float right_angle;
+
+      @verbatim (language="comment", text=
+        "Quality (optional debug)")
+      int32 left_pixel_count;
+
+      int32 right_pixel_count;
+    };
+  };
+};

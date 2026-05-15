@@ -1,0 +1,11 @@
+{
+  "package_name": "aicar_msgs",
+  "output_dir": "/home/me/maedongyee_ws/build/aicar_msgs/rosidl_generator_type_description/aicar_msgs",
+  "idl_tuples": [
+    "/home/me/maedongyee_ws/build/aicar_msgs/rosidl_adapter/aicar_msgs:msg/LaneInfo.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

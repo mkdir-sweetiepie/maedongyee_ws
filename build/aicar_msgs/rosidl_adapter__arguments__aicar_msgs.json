@@ -1,0 +1,6 @@
+{
+  "package_name": "aicar_msgs",
+  "non_idl_tuples": [
+    "/home/me/maedongyee_ws/aicar_msgs:msg/LaneInfo.msg"
+  ]
+}

@@ -1,0 +1,267 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-27f4ec041f829243d0f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				},
+				{
+					"build" : "aicar_msgs__py",
+					"jsonFile" : "directory-aicar_msgs__py-afdd74cf8f6182996eab.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/me/maedongyee_ws/build/aicar_msgs/aicar_msgs__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "aicar_msgs__rs",
+					"jsonFile" : "directory-aicar_msgs__rs-95ab66b6074d7a72e524.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/me/maedongyee_ws/build/aicar_msgs/aicar_msgs__rs",
+					"targetIndexes" : 
+					[
+						12
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "aicar_msgs",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs-938d23d6d2c0466460df.json",
+					"name" : "aicar_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__cpp-712f14aae113a8f505e1.json",
+					"name" : "aicar_msgs__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "aicar_msgs__py::@1fbac13f15b45d628047",
+					"jsonFile" : "target-aicar_msgs__py-baa6f51a136b3bbb19bb.json",
+					"name" : "aicar_msgs__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_generator_c-46c237729cc1979b4e56.json",
+					"name" : "aicar_msgs__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_generator_py-6b54457799e32fcf5ed0.json",
+					"name" : "aicar_msgs__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_generator_type_description-58dcf95feaed04c1a792.json",
+					"name" : "aicar_msgs__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_typesupport_c-785988adfb8adc2f5402.json",
+					"name" : "aicar_msgs__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_typesupport_cpp-867d58a259b87b740c66.json",
+					"name" : "aicar_msgs__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_typesupport_fastrtps_c-00f115d5b9f5c0195f62.json",
+					"name" : "aicar_msgs__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_typesupport_fastrtps_cpp-fa162e81133716116538.json",
+					"name" : "aicar_msgs__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_typesupport_introspection_c-aa579485d440dcbe422a.json",
+					"name" : "aicar_msgs__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs__rosidl_typesupport_introspection_cpp-5da45cc55525de8de1a2.json",
+					"name" : "aicar_msgs__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "aicar_msgs__rs::@1d103d22f44e96a8e173",
+					"jsonFile" : "target-aicar_msgs__rs-b88a6a9b56858aa1100a.json",
+					"name" : "aicar_msgs__rs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs_s__rosidl_typesupport_c-8c90dec97feffb0d02e8.json",
+					"name" : "aicar_msgs_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs_s__rosidl_typesupport_fastrtps_c-ddf9cfc18805650ae548.json",
+					"name" : "aicar_msgs_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs_s__rosidl_typesupport_introspection_c-1a8136453d3b49e29165.json",
+					"name" : "aicar_msgs_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "aicar_msgs_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aicar_msgs_uninstall-932d078833554fd8220e.json",
+					"name" : "aicar_msgs_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_aicar_msgs_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_aicar_msgs_egg-0900ee93683ab6e0d718.json",
+					"name" : "ament_cmake_python_build_aicar_msgs_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_aicar_msgs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_aicar_msgs-a3c37f89469f2d8be0c5.json",
+					"name" : "ament_cmake_python_copy_aicar_msgs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-83ee2bd5c5166daf4253.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/me/maedongyee_ws/build/aicar_msgs",
+		"source" : "/home/me/maedongyee_ws/aicar_msgs"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

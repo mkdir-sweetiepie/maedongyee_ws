@@ -1,0 +1,2 @@
+[console_scripts]
+differential_drive_node = aicar_driver.differential_drive_node:main

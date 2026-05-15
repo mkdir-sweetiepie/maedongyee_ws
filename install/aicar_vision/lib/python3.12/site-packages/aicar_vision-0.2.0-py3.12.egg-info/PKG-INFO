@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: aicar-vision
+Version: 0.2.0
+Summary: Lane and sign detection
+Maintainer: medong
+Maintainer-email: medong@kw.ac.kr
+License: Apache-2.0
